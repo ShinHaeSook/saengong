@@ -1,0 +1,204 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #333;
+}
+
+header .left-nav a, header .right-nav a {
+    margin: 0 15px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #111;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content p {
+    margin: 20px 0;
+    font-size: 15pt;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.intro .intro-item {
+    width: 300px;
+    height: 200px;
+    margin: 0 20px;
+    object-fit: cover;
+}
+
+.intro-text {
+    text-align: center;
+    padding: 0 40px 40px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.gift-package {
+    background-color: #222;
+    padding: 60px 40px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.gift-package h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.gift-package p {
+    margin: 15px 0;
+}
+
+.gift-package button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.weekly-choice, .best-item {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.best-item {
+    margin-bottom: 50px;
+}
+
+.weekly-choice h2, .best-item h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 250px;
+}
+
+.product .product-image {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.product h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.product p {
+    margin: 5px 0 0;
+    color: #aaa;
+}
+
+.product p .discount {
+    color: #ff1d06;
+}
+
+.delivery-service {
+    display: flex;
+    align-items: center;
+    color: #000;
+    background-color: #fff;
+}
+
+.delivery-image {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.delivery-content {
+    width: 50%;
+    padding: 40px;
+}
+
+.delivery-content h2 {
+    font-size: 36px;
+}
+
+.delivery-content button {
+    background-color: #fff;
+    color: #111;
+    border: 1px solid #111;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 40px;
+    border-top: 1px solid #333;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content .info p {
+    margin: 5px 0;
+    color: #aaa;
+}
+
+.footer-content .social a {
+    margin-left: 15px;
+    font-size: 20px;
+}
